@@ -1,0 +1,27 @@
+diff a/Firmware/Src/Cowlar_app_v8.c b/Firmware/Src/Cowlar_app_v8.c	(rejected hunks)
+@@ -845,19 +845,18 @@
+             osMutexRelease(hmutex_SDCard);
+           }  
+ #endif
+-            printTask("CLASSIFICATION_APP WALKING end\n");            
+           }
+           annNextSlotWalking = RTC_secondsAtMark(ANN_WALKING_SAMPLE_TIME);  
+           #ifdef ANN_TEST
+           if(!forceWalkingEnd){mpuBuffer_count_out =  mpuBuffer_count;}else{ forceEnd = 0;annBehaviorBuffer_count = 0;} 
+           forceWalkingEnd = 0;
+           #else
+-//          if(classificationWalking == MPU_FEATURE_WALKING_WALK)
+-//          {            
+-//            annNextSlotBehavior = RTC_secondsAtMark(ANN_BEHAVIOR_SAMPLE_TIME);  
+-//            annBehaviorBuffer_count = 0;  // reset counter because this was walking event                                          
+-//          }
+-//          else
++          if(classificationWalking == MPU_FEATURE_WALKING_WALK)
++          {            
++            annNextSlotBehavior = RTC_secondsAtMark(ANN_BEHAVIOR_SAMPLE_TIME);  
++            annBehaviorBuffer_count = 0;  // reset counter because this was walking event                                          
++          }
++          else
+           #endif
+           {
+ 

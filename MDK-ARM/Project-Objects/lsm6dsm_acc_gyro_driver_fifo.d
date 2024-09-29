@@ -1,0 +1,10 @@
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\LSM6DSM_ACC_GYRO_driver_fifo.c
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\LSM6DSM_ACC_GYRO_driver_fifo.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\LSM6DSM_ACC_GYRO_driver_HL.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\../Common/accelerometer.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\../Common/sensor.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\../Common/component.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\../Common/gyroscope.h
+.\project-objects\lsm6dsm_acc_gyro_driver_fifo.o: ..\Drivers\BSP\Components\lsm6dsm\LSM6DSM_ACC_GYRO_driver.h

@@ -1,0 +1,30 @@
+T5BBC 612:878 SEGGER J-Link V6.20b Log File (0001ms, 3219ms total)
+T5BBC 612:878 DLL Compiled: Sep 22 2017 17:57:26 (0001ms, 3219ms total)
+T5BBC 612:878 Logging started @ 2019-01-20 21:42 (0001ms, 3219ms total)
+T5BBC 612:879 JLINK_SetWarnOutHandler(...) (0000ms, 3219ms total)
+T5BBC 612:879 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Apr 20 2018 16:47:26
+Hardware: V9.30
+S/N: 269303620
+OEM: SEGGER-EDU
+Feature(s): FlashBP, GDB
+TELNET listener socket opened on port 19021C:\Program Files (x86)\SEGGER\JLink_V620b\JLinkDevices.xml evaluated successfully.Device "STM32L452CE" selected.WEBSRV 
+Webserver running on local port 19080  returns O.K. (0148ms, 3367ms total)
+T5BBC 613:027 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 3367ms total)
+T5BBC 613:028 JLINK_TIF_GetAvailable(...) (0000ms, 3367ms total)
+T5BBC 613:028 JLINK_SetErrorOutHandler(...) (0000ms, 3367ms total)
+T5BBC 613:028 JLINK_ExecCommand("ProjectFile = "F:\Documents\Development\Cowlar\Cowlar Node-v10 - unit Testing\Firmware\MDK-ARM\JLinkSettings.ini"", ...). Device "STM32L452CE" selected.  returns 0x00 (0008ms, 3375ms total)
+T5BBC 613:039 JLINK_ExecCommand("Device = STM32L452CEUx", ...). Device "STM32L452CE" selected.  returns 0x00 (0005ms, 3380ms total)
+T5BBC 613:044 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 3380ms total)
+T5BBC 613:044 JLINK_GetHardwareVersion()  returns 0x16B48 (0000ms, 3380ms total)
+T5BBC 613:044 JLINK_GetDLLVersion()  returns 62002 (0000ms, 3380ms total)
+T5BBC 613:054 JLINK_GetDLLVersion()  returns 62002 (0000ms, 3380ms total)
+T5BBC 613:054 JLINK_GetCompileDateTime() (0000ms, 3380ms total)
+T5BBC 613:057 JLINK_GetFirmwareString(...) (0000ms, 3380ms total)
+T5BBC 613:060 JLINK_GetHardwareVersion()  returns 0x16B48 (0000ms, 3380ms total)
+T5BBC 613:075 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 3381ms total)
+T5BBC 613:076 JLINK_SetSpeed(3000) (0000ms, 3381ms total)
+T5BBC 613:076 JLINK_GetId()  returns 0x00000000 (0000ms, 3381ms total)
+T5BBC 614:270 JLINK_Close() (0012ms, 3393ms total)
+T5BBC 614:270  (0012ms, 3393ms total)
+T5BBC 614:270 Closed (0012ms, 3393ms total)
